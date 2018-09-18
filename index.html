@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marvel Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+<body>
+
+    <div id = "initializingGameContainer">
+
+        <h1 class = "title">Uncanny Marvel Trivia</h1>
+
+        <button id = "startButton">Start</button>
+
+    </div>
+    
+    <div id = "actualGameContainer">
+
+        <h1 class = "title">Uncanny Marvel Trivia</h1>
+    
+        <h1 id = "timeClock">Time Remaining: <span id = "TimeClockNumber"> 60 Seconds</span></h1>
+
+    <h3>What is the real name of Marvel's Black Panther?</h3>
+    
+    <!--Correct answer: T'Challa-->
+    
+    <input type = "radio" name = "question1" value = "q1a">T'Challa
+    <input type = "radio" name = "question1" value = "q1b">Miles Morales
+    <input type = "radio" name = "question1" value = "q1c">Logan
+    <input type = "radio" name = "question1" value = "q1d">Curtis Carr
+    <br><br>
+    
+    <h3>Steve Roger's body reached the pinnacle of human perfection after being injected with what?</h3>
+    
+    <!--Correct answer: Super-Soldier Serum-->
+    
+    <input type = "radio" name = "question2" value = "q2a">Terrigen Mists
+    <input type = "radio" name = "question2" value = "q2b">Super-Soldier Serum
+    <input type = "radio" name = "question2" value = "q2c">Gamma Rays
+    <input type = "radio" name = "question2" value = "q2d">Wolverine's healing ability
+    <br><br>
+
+    <h3>Captain Marvel's superpowers include:</h3>
+    
+    <!--Correct answer: Flying, Superhuman strength, and energy absorption-->
+    
+    <input type = "radio" name = "question3" value = "q3a">Shapeshifting and Flying
+    <input type = "radio" name = "question3" value = "q3b">Adamantium Claws and Bone structure
+    <input type = "radio" name = "question3" value = "q3c">Flying and all forms of electromagnetic energy
+    <input type = "radio" name = "question3" value = "q3d">Flying, Superhuman strength, and energy absorption
+    <br><br>
+
+    <h3>Tony Starks turned "Pepper" Potts into a ________, in an effort to save her life.</h3>
+    
+    <!--Correct answer: Cyborg-->
+    
+    <input type = "radio" name = "question4" value = "q4a">Robot
+    <input type = "radio" name = "question4" value = "q4b">Inhuman
+    <input type = "radio" name = "question4" value = "q4c">Mutant
+    <input type = "radio" name = "question4" value = "q4d">Cyborg
+    <br><br>
+
+    <h3>When she's not fighting as She-Hulk, what is Jennifer Walter's occupation?</h3>
+    
+    <!--Correct answer: Lawyer-->
+
+    <input type = "radio" name = "question5" value = "q5a">Consturction Worker
+    <input type = "radio" name = "question5" value = "q5b">Lawyer
+    <input type = "radio" name = "question5" value = "q5c">Judge
+    <input type = "radio" name = "question5" value = "q5d">Scientist
+    <br><br>
+
+    <button id = "submissionButton">Submit</button>
+
+    </div>
+
+    <div id = "finishGameContainer">
+
+        <h1 class = "title">Uncanny Marvel Trivia</h1>
+
+        <h1 id = "complete">Game Completed!</h1>
+        <br>
+
+        <h3>Correct Answers: <span id = "correctAnswers">0</span></h3>
+        <h3>Wrong Answers: <span id = "wrongAnswers">0</span></h3>
+        <h3>Unanswered Questions: <span id = "unanswered">0</span></h3>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
